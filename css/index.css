@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+input {
+    outline: none;
+}
+
+.container {
+    width: 1140px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+/*============================/*Вход*/
+
+
+/*.title {*/
+/*    text-align: center;*/
+/*    font-family: sans-serif;*/
+/*    font-size: 20px;*/
+/*    color: black;*/
+/*    margin-top: 50px;*/
+/*}*/
+
+/*.form {*/
+/*    border-radius: 20px;*/
+/*    width: 350px;*/
+/*    height: 400px;*/
+/*    background: cadetblue;*/
+/*    border-right: 10px;*/
+/*    padding: 20px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.login, .password {*/
+/*    margin-top: 20px;*/
+/*    padding: 10px;*/
+/*    width: 250px;*/
+/*    border-radius: 5px;*/
+/*    border-color: black;*/
+/*    transition: .4s;*/
+/*}*/
+
+/*.login:focus, .password:focus {*/
+/*    background: #efefef;*/
+/*}*/
+
+/*.login::placeholder, .password::placeholder {*/
+/*    color: red;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+/*.btn {*/
+/*    margin-top: 50px;*/
+/*    width: 150px;*/
+/*    font-family: sans-serif;*/
+/*    font-size: 16px;*/
+/*    font-weight: 600;*/
+/*    height: 40px;*/
+/*    border-radius: 10px;*/
+/*    background: orange;*/
+/*    color: #fff;*/
+/*    border: none;*/
+/*    transition: .3s;*/
+
+/*}*/
+
+/*.btn:hover {*/
+/*    background: #000;*/
+/*    color: yellow;*/
+/*}*/
+
+/*.btn:active {*/
+/*    background: red;*/
+/*    color: #fff;*/
+/*}*/
+
+/*============================/*Todo-list*/
+
+
+.text {
+    outline: none;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: blue;
+}
+
+.text:focus {
+    background: #efefef;
+}
+
+.btn {
+    margin-left: 15px;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ffffff;
+}
+
+/*.btn:hover {*/
+/*    background: #ff8800;*/
+/*}*/
+
+.btn:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+    inset -4px -4px 12px #ffffff;
+}
+
+.list {
+    margin-top: 20px;
+
+}
+
+.item {
+    display: flex;
+    border-radius: 5px;
+    width: 300px;
+    padding: 0 10px;
+    border: 2px solid #000;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.span {
+    overflow: auto;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+
+.btn2 {
+    margin-left: 10px;
+    padding: 10px;
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+
+.text-line {
+    text-decoration: line-through;
+}
+
+body {
+    background: aqua;
+}
+
+
+.clear__btn {
+    margin-left: 10px;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ffffff;
+}
+
+.clear__btn:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+    inset -4px -4px 12px #ffffff;
+}
+.clear__btn:hover{
+    background: rgba(9, 9, 9, 0.82);
+    color: white;
+}
+.btn:hover{
+    background: rgba(9, 9, 9, 0.82);
+    color: white;
+}
+
+.row{
+    height: 100%;
+    margin-top:20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*.clear__btn{*/
+/*    width: 130px;*/
+/*    height: 50px;*/
+/*    font-size: 16px;*/
+/*    font-family: sans-serif;*/
+/*    border-radius: 10px;*/
+/*    font-weight: 600;*/
+/*    background: orange;*/
+/*    border: 2px solid transparent;*/
+/*    transition: .2s;*/
+/*}*/
+/*.clear__btn:active{*/
+/*    background: #c40101;*/
+/*    border-color: green;*/
+/*    color: green;*/
+/*}*/
